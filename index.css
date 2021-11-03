@@ -7,6 +7,12 @@ body {
 .bg-light {
     background-color: #F9F9FF !important;
 }
+.big-font {
+    font-size: 70px !important;
+}
+.bg-darker {
+    background-color: #000000 !important;
+}
 .circle-round {
     height: 40px;
     width: 40px;
@@ -14,4 +20,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.header_bar {
+    position: relative;
+    width: 101%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.hero_content {
+    z-index: 1;
+    width: 100%;
+}
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav-link {
+    color: #fff !important;
+}
+.small-font {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+}
+.icon_holder {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
 }
