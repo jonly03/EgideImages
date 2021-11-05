@@ -59,3 +59,86 @@ body {
     width: 100%;
     align-items: flex-end;
 }
+
+/* Video Styles*/
+.wrapper {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.video1 {
+    background-image: url('./assets/images/grey-city-smooth-tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 3px;
+}
+
+.video2 {
+    background-image: linear-gradient(rgba(38, 49, 56, 0.22),rgba(21, 116, 185, .22)), url('./assets/images/Rectangle\ 109.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 3px;
+}
+
+.video3 {
+    background-image: linear-gradient(rgba(19, 33, 42, 0.22),rgba(21, 116, 185, .22)), url('./assets/images/Best-Camera-For-Wedding-Photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 3px;
+}
+
+.video4 {
+    background-image: linear-gradient(rgba(21, 116, 185, .22),rgba(60, 25, 255, 0.22)), url('./assets/images/grey-city-smooth-tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 3px;
+}
+  
+.video__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 10px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    height: 61vh;
+    color: #fff;
+  }
+  
+  .video__content__sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 10px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    height: 18vh;
+    color: #fff;
+  }
+  
+  .video__content h3 {
+    margin-top: 60px;
+  }
+  
+  .video__play {
+    display: inline-block;
+  }
+  
+  .video__play svg {
+    transition: all 0.2s ease;
+  }
+  
+  .video__play:hover svg {
+    transform: scale(1.2);
+  }
