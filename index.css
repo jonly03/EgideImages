@@ -1,144 +1,180 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 .bg-black {
-    background-color: #252422 !important;
+  background-color: #252422 !important;
 }
 .bg-light {
-    background-color: #F9F9FF !important;
+  background-color: #f9f9ff !important;
 }
-.big-font {
+/* .big-font {
     font-size: 70px !important;
+} */
+
+.underlined {
+  text-decoration: underline;
 }
+
+.cta {
+  color: white;
+  text-decoration: none;
+}
+
+.cta:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .bg-darker {
-    background-color: #000000 !important;
+  background-color: #000000 !important;
 }
+
+.custom-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255,255,255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 .circle-round {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header_bar {
-    position: relative;
-    width: 101%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-image: url("./assets/images/Rectangle\ 109.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero_content {
-    z-index: 1;
-    width: 100%;
+  z-index: 1;
+  width: 100%;
 }
 .image-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .nav-link {
-    color: #fff !important;
+  color: #fff !important;
 }
 .small-font {
-    font-size: 18px !important;
-    margin-bottom: 10px;
+  font-size: 18px !important;
+  margin-bottom: 10px;
 }
 .icon_holder {
-    position: absolute;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    align-items: flex-end;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
 }
 
 /* Video Styles*/
 .wrapper {
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .video1 {
-    background-image: url('./assets/images/grey-city-smooth-tech.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 3px;
+  background-image: url("./assets/images/grey-city-smooth-tech.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 3px;
 }
 
 .video2 {
-    background-image: linear-gradient(rgba(38, 49, 56, 0.22),rgba(21, 116, 185, .22)), url('./assets/images/Rectangle\ 109.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 3px;
+  background-image: linear-gradient(
+      rgba(38, 49, 56, 0.22),
+      rgba(21, 116, 185, 0.22)
+    ),
+    url("./assets/images/Rectangle\ 109.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 3px;
 }
 
 .video3 {
-    background-image: linear-gradient(rgba(19, 33, 42, 0.22),rgba(21, 116, 185, .22)), url('./assets/images/Best-Camera-For-Wedding-Photography.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 3px;
+  background-image: linear-gradient(
+      rgba(19, 33, 42, 0.22),
+      rgba(21, 116, 185, 0.22)
+    ),
+    url("./assets/images/Best-Camera-For-Wedding-Photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 3px;
 }
 
 .video4 {
-    background-image: linear-gradient(rgba(21, 116, 185, .22),rgba(60, 25, 255, 0.22)), url('./assets/images/grey-city-smooth-tech.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 3px;
+  background-image: linear-gradient(
+      rgba(21, 116, 185, 0.22),
+      rgba(60, 25, 255, 0.22)
+    ),
+    url("./assets/images/grey-city-smooth-tech.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 3px;
 }
-  
+
 .video__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 10px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    text-align: center;
-    height: 61vh;
-    color: #fff;
-  }
-  
-  .video__content__sm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 10px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    text-align: center;
-    height: 18vh;
-    color: #fff;
-  }
-  
-  .video__content h3 {
-    margin-top: 60px;
-  }
-  
-  .video__play {
-    display: inline-block;
-  }
-  
-  .video__play svg {
-    transition: all 0.2s ease;
-  }
-  
-  .video__play:hover svg {
-    transform: scale(1.2);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 10px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+  height: 61vh;
+  color: #fff;
+}
+
+.video__content__sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 10px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+  height: 18vh;
+  color: #fff;
+}
+
+.video__content h3 {
+  margin-top: 60px;
+}
+
+.video__play {
+  display: inline-block;
+}
+
+.video__play svg {
+  transition: all 0.2s ease;
+}
+
+.video__play:hover svg {
+  transform: scale(1.2);
+}
