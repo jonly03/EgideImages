@@ -1,5 +1,8 @@
+html {
+  width: 101vw;
+}
 body {
-  overflow-x: hidden;
+  width: 100%;
 }
 .bg-black {
   background-color: #252422 !important;
@@ -92,6 +95,10 @@ body {
   height: 100%;
   width: 100%;
   align-items: flex-end;
+}
+
+#work {
+  background-color: black;
 }
 
 /* Video Styles*/
